@@ -7,7 +7,7 @@ var traveler = {
     favoriteActivity: "hiking",
     yearsExperienced: "4 years",
     funFact: function () {
-        console.log(this.firstName + " " + this.lastName + " has been " + this.favoriteActivity + " for " + this.yearsExperienced + ".");
+        return this.firstName + " " + this.lastName + " has been " + this.favoriteActivity + " for " + this.yearsExperienced + ".";
     },
     travelPartners: [
         {
@@ -52,4 +52,15 @@ var traveler = {
         }
     ]
 }
-traveler.funFact ();
+
+// console.log(traveler.funFact ());
+
+traveler.bmi = 21
+traveler.bodyType = "athletic"
+// console.log(traveler)
+
+for (let i = 0; i < traveler.travelPartners.length; i++) {
+    traveler.travelPartners[i].bmi = 20;
+    traveler.travelPartners[i].bodyType = "athletic";
+}
+ console.log(traveler.travelPartners)
