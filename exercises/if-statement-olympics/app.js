@@ -26,6 +26,25 @@
 // } else {
 //     console.log (person.name + " is not allowed to go to the movie")
 // }
+// var person = {
+//     name: "Bobby",
+//     age: 12
+// };
+// if (person.name[0] === "B") {
+//     console.log (person.name + " is allowed to go to the movies");
+// } else (
+//     console.log(person.name + " is not allowed")
+// )
+// var person = {
+//     name: "Bobby",
+//     age: 12
+// };
+
+// if (person.name[0] === "B" && person.age > 18) {
+//     console.log (person.name + " is allowed to go to the movies");
+// } else (
+//     console.log(person.name + " is not allowed")
+// )
 
 // if (1 === "1") {
 //     console.log("strict")
