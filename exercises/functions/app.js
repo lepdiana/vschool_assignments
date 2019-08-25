@@ -1,39 +1,39 @@
-// function sumTwoNums(num1, num2){
-//     return num1 + num2
+// function mySum(sum1, sum2) {
+//     return sum1 + sum2
 // }
 
-// console.log(sumTwoNums(1, 2))
+// console.log(mySum(18, 21));
 
-// const numbers = (num1, num2, num3) => {
-//     if(num1 > num2 && num1 > num3){
-//         return num1
-//     } 
-//     else if (num2 > num1 && num2 > num3){
-//         return num2
+// function par(par1, par2, par3) {
+//     if (par1 > par2 && par1 > par3) {
+//         return par1
+//     } else if (par2 > par1 && par2 > par3) {
+//         return par2
 //     } else {
-//         return num3
+//         return par3
 //     }
 // }
-// console.log("numbers: ", numbers(1, 2, 3))
+
+// console.log(par(5, 2, 8));
 
 
-// function oddOrEven(num){
-    
-//     if(num % 2 === 0){
+// function evenOrOdd(num) {
+//     if (num % 2 === 0) {
 //         return "even"
 //     } else {
 //         return "odd"
 //     }
 // }
-// console.log(oddOrEven(2)) // => even
-// console.log(oddOrEven(3)) // => odd
+
+// console.log(evenOrOdd(11))
 
 
+function str(word) {
+    if (word.length <= 20) {
+        return word + word
+    } else {
+        return word.slice(0, word.length / 2)
+    }
+}
 
-strings = (aString) => {
-    if (aString.length < 20) {
-        return aString + aString;
-    } else return aString.slice(0, aString.length/2);
-} 
-console.log(strings("hihihihi"));
-console.log(strings("hihihihihihihihihihihihihihihi"));
+console.log(str("youareawesomeyouareawesome"))
