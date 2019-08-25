@@ -54,14 +54,35 @@
 //     console.log("not equal at all")
 // }
 
-// let animal = "dog";
-//     if (animal === "dog") {
-//         console.log("string")
-//     }
+// if (1 <= 2 && 2 === 4) {
+//     console.log("yes")
+// }
 
-// let dataType = "true"; 
-// if (dataType === "true") {
-//     console.log("not a boolean")
-// } else {
+// var animal = "dog";
+// if (animal.indexOf("dog") === string) {
+//     console.log("string")
+// }
+
+// const str = "dog";
+// if (typeof str === "string") {
+//     console.log("STRING")
+// }
+
+// const str = "true";
+// if (typeof str === "boolean") {
 //     console.log("boolean")
 // }
+
+// var x = 3;
+// if (x === undefined) {
+//     console.log("undefined");
+// } else {
+//     console.log("defined")
+// }
+
+var x = "s"
+if (x > 12) {
+    console.log("s is greater than 12");
+} else {
+    console.log("this is crazy")
+}
