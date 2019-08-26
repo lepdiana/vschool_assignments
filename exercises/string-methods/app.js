@@ -1,37 +1,38 @@
-// function character (word) {
-//     let upWord = word.toUpperCase();
-//     let lowWord = word.toLowerCase ();
-//     console.log(upWord + lowWord)
+// function capilizeAndLowercase (hello) {
+//     let upWord = hello.toUpperCase();
+//     let lowWord = hello.toLowerCase ();
+//     return upWord + lowWord
 // }
 
-// character ("welcome");
+// console.log(capilizeAndLowercase("HeLlO"));
 
 
 
-// function half (word) {
-//     const stringLength = word.length;
-//     // console.log(stringLength);
-//     const halfLength = stringLength / 2;
-//     // console.log(halfLength);
-//     return Math.floor(halfLength)
+// function findMiddleIndex(word) {
+//     var half = word.length / 2;
+//     return Math.floor(half)
 // }
 
-// console.log(half ("hello"));
+// console.log(findMiddleIndex("hello"));
+// console.log(findMiddleIndex("hello world"));
 
-// function example (word) {
-//     const stringLength = word.length;
-//     const returnFirstHalf = stringLength / 2;
-//     return word.slice(0, Math.floor(returnFirstHalf))
+
+
+// function returnFirstHalf (word) {
+//     const half = word.length / 2;
+//     return word.slice(0, Math.floor(half))
 // }
 
-// console.log(example ("whatever"));
+// console.log(returnFirstHalf ("hello"));
+// console.log(returnFirstHalf("hello world"));
 
 
-function lastProblem (todo) {
-    const firstHalf = todo.slice(0, todo.length / 2).toUpperCase();
-    const secondHalf = todo.slice(todo.length / 2, todo.length).toLowerCase();
-    const combine = firstHalf.concat(secondHalf);
-    return combine
-}
+// function capilizeAndLowercase (x) {
+//     const firstHalf = x.slice(0, x.length / 2).toUpperCase();
+//     const secondHalf = x.slice(x.length / 2, x.length).toLowerCase();
+//     const combine = firstHalf.concat(secondHalf);
+//     return combine
+// }
 
-console.log (lastProblem ("donedonedonedone"));
+// console.log (capilizeAndLowercase ("Hello"));
+// console.log(capilizeAndLowercase("Hello world"));
