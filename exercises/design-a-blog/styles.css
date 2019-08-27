@@ -1,0 +1,53 @@
+nav {
+    position: fixed;
+    z-index: 1;
+    margin-top: -200px;
+    margin-left: 40px; 
+    width: 1500px;
+    height: 150px;
+    background-color: #FF84A1;
+    border: 5px solid #666263;
+    text-align: center;
+}
+
+button {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.title {
+    margin-top: 15px;
+    font-size: 50px;
+    color: #fff;
+}
+
+.body1 {
+    position: relative;
+    margin-top: 200px;
+    margin-left: 40px;
+    width: 1500px;
+    text-align: center;
+    overflow: scroll;
+}
+
+.body2 {
+    position: relative;
+    top: 150px;
+    margin-left: 40px;
+    width: 1500px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 40px;
+}
+
+.exerciseimage {
+    float: left;
+    padding-right: 10px;
+}
+
+.aboutMe {
+    float: right;
+    padding-left: 10px;
+}
