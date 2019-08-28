@@ -1,0 +1,26 @@
+.blue {
+    display: inline-block;
+    position: absolute;
+    z-index: -2;
+    width: 600px;
+    height: 400px;
+    background-color: rgb(46, 107, 187);
+}
+
+.yellow1 {
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+    margin-left: 170px;
+    width: 50px;
+    height: 400px;
+    background-color: rgb(255, 230, 0);
+}
+
+.yellow2 {
+    display: inline-block;
+    margin-top: 160px;
+    width: 600px;
+    height: 50px;
+    background-color: rgb(255, 230, 0);
+}

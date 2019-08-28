@@ -1,0 +1,20 @@
+.blue {
+    display: inline-block;
+    width: 300px;
+    height: 600px;
+    background-color: blue;
+}
+
+.white {
+    display: inline-block;
+    width: 300px;
+    height: 600px;
+    background-color: white;
+}
+
+.red {
+    display: inline-block;
+    width: 300px;
+    height: 600px;
+    background-color: red;
+}

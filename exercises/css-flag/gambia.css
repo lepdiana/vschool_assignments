@@ -1,0 +1,19 @@
+.red {
+    width: 800px;
+    height: 150px;
+    background-color: rgb(206, 0, 0);
+}
+
+.blue {
+    width: 800px;
+    height: 110px;
+    border-top: 20px solid white;
+    border-bottom: 20px solid white;
+    background-color: rgb(0, 0, 199);
+}
+
+.green {
+    width: 800px;
+    height: 150px;
+    background-color: rgb(0, 78, 0);
+}

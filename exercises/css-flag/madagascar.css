@@ -1,0 +1,24 @@
+.white {
+    display: inline-block;
+    width: 200px;
+    height: 600px;
+    margin: 0x;
+    background-color: white;
+}
+
+.red {
+    display: inline-block;
+    position: absolute;
+    margin-left: -4px;
+    width: 700px;
+    height: 300px;
+    background-color: #FF2F21;
+}
+
+.green {
+    display: inline-block;
+    margin-left: -4px;
+    width: 700px;
+    height: 300px;
+    background-color: green;
+}

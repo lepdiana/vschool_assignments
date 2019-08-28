@@ -1,0 +1,117 @@
+.bigred1 {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.smallred1 {
+    display: inline-block;
+    position: absolute;
+    margin-left: -4px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.white1 {
+    display: inline-block;
+    margin-left: -4px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.bigred2 {
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.smallred2 {
+    display: inline-block;
+    position: absolute;
+    margin-top: -4px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.white2 {
+    display: inline-block;
+    position: absolute;
+    margin-top: -4px;
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.white3 {
+    display: inline-block;
+    position: absolute;
+    margin-top: -4px;
+    margin-left: 200px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.white4 {
+    display: inline-block;
+    position: absolute;
+    margin-top: -4px;
+    margin-left: 300px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.smallred3 {
+    display: inline-block;
+    position: absolute;
+    margin-top: -4px;
+    margin-left: 400px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.bigred3 {
+    display: inline-block;
+    position: absolute;
+    margin-top: 96px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.white5 {
+    display: inline-block;
+    position: absolute;
+    margin-top: 96px;
+    margin-left: 200px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.smallred4 {
+    display: inline-block;
+    margin-top: 196px;
+    margin-left: 200px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.bigred4 {
+    display: inline-block;
+    position: absolute;
+    margin-top: 96px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
