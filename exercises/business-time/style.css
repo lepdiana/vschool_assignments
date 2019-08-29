@@ -1,0 +1,166 @@
+header {
+    display: flex;
+}
+
+input {
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 429px;
+    width: 350px;
+    height: 30px;
+}
+
+button{
+    display:inline-flex
+}
+
+header > div {
+    display: flex;
+    margin: 30px;
+    padding-left: 400px;
+    padding-top: 100px;
+    width: 800px;
+    height: 250px;
+    Background-color: rgb(82, 131, 82);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    color: white;
+    text-decoration-line: underline;
+    border: 8px solid #000000;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container > div {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+
+span {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+span > img {
+    height: 250px;
+    width: 200px;
+}
+
+.container > div:nth-child(1) {
+    border: 2px solid #E3E3E3
+}
+
+.container > div:nth-child(2) {
+    border: 2px solid #E3E3E3;
+}
+
+.container > div:nth-child(3) {
+    border: 2px solid #E3E3E3;
+}
+
+.container > div:nth-child(4) {
+    border: 2px solid #E3E3E3;
+}
+
+.container > div:nth-child(5) {
+    border: 2px solid #E3E3E3;
+}
+
+.container > div:nth-child(6) {
+    border: 2px solid #E3E3E3;
+}
+
+.featured, .men, .aboutUs {
+    font-size: 40px;
+}
+
+.featured > img {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.pinkDress {
+    width: 200px;
+    height: 250px;
+}
+
+.womenBlackShirt {
+    width: 200px;
+    height: 250px;
+}
+
+.redSweater {
+    width: 200px;
+    height: 250px;
+}
+
+.mintShirt {
+    width: 200px;
+    height: 250px;
+}
+
+.stripes {
+    width: 200px;
+    height: 250px;
+}
+
+.salmonShirt {
+    width: 200px;
+    height: 250px;
+}
+
+.polkaDot {
+    width: 200px;
+    height: 250px;
+}
+
+.cardigan {
+    width: 200px;
+    height: 250px;
+}
+
+
+.menJacket {
+    width: 200px;
+    height: 250px;
+}
+
+.disney {
+    width: 200px;
+    height: 250px;
+}
+
+.ship {
+    width: 200px;
+    height: 250px;
+}
+
+.whiteJacket {
+    width: 200px;
+    height: 250px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: rgb(82, 131, 82);
+    font-size: 15px;
+    ont-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+@media (min-width: 600px) and  (max-width: 900px) {
+    html { background-color: #333333 }
+}
+
