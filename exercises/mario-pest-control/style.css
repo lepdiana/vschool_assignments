@@ -1,0 +1,87 @@
+.title {
+    display: fixed;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 200px;
+    width: 1000px;
+    background-color: #C91D16;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #FFFFFF;
+    background-image: url("https://media.wired.com/photos/5926c126af95806129f50868/master/w_1334,c_limit/SuperMarioRunTA.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.baddiePic {
+    display: inline-block;
+    width: 125px;
+    height: 125x;
+}
+
+.goombas {
+    display: inline-block;
+    padding-left: 28vw;
+
+}
+
+.bobOmbs {
+    display: absolute;
+    padding-left: 28vw;
+
+}
+
+.cheepCheeps {
+    display: absolute;
+    padding-left: 28vw;
+
+}
+
+form {
+    display: inline-block;
+    font-size: 20px;
+}
+
+input {
+    height: 20px;
+}
+
+button {
+    display: inline-block;
+    margin-left: 600px;
+    margin-top: 80px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.price{
+    display: inline;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #C91D16;
+}
+
+.coinPic {
+    height: 20px;
+    width: auto;
+}
+
+.total {
+    display: absolute;
+    margin-top: 60px;
+    padding-left: 500px;
+    font-size: 22px;
+}
+
+footer{
+    display: block;
+    background-color: #C91D16;
+    padding: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
