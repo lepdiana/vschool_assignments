@@ -1,0 +1,199 @@
+@media screen and (min-width: 68.75em) {
+    .content {
+        display: grid;
+        grid-gap: 10px;
+        margin: 30px;
+    }
+
+    .content > div {
+        align-items: center; 
+        justify-content: center;
+        border: 2px solid #000000;
+    }
+
+    .header {
+        grid-column: 1/4;
+        grid-row: 1/2;
+        font-size: 80px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+
+    .nav {
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+
+    .navigationTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 24px;
+        text-decoration-line: underline;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about {
+        grid-column: 2/4;
+        grid-row: 2/4;
+    }
+
+    .aboutUsTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 24px;
+        text-decoration-line: underline;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .aboutUsText {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .sketch {
+        width: 180px;
+        height: auto;
+        float: left;
+    }
+
+    .new {
+        grid-column: 2/4;
+        grid-row: 2/4;
+        font-size: 24px;
+    }
+
+    .newArrivalsTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 24px;
+        text-decoration-line: underline;
+        text-align: center;
+    }
+
+    .clothes > img {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 150px;
+        height: 230px;
+        border: 1px solid #f3f3f3;
+        margin: 10px;
+    }
+
+    .contact {
+        grid-column: 1/2;
+        grid-row: 5/6;
+        font-size: 24px;
+    }
+
+    .contactUsTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 24px;
+        text-decoration-line: underline;
+        text-align: center;
+    }
+
+    .contactUsText {
+        display: flex;
+        padding: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        text-align: center;
+        text-overflow: clip;
+    }
+
+    .social {
+        grid-column: 2/3;
+        grid-row: 5/6;
+        font-size: 24px;
+    }
+
+    .socialMediaTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 24px;
+        text-decoration-line: underline;
+        text-align: center;
+    }
+
+    .email {
+        grid-column: 3/4;
+        grid-row: 5/6;
+        font-size: 24px;
+    }
+
+    .subscriptionTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 24px;
+        text-decoration-line: underline;
+        text-align: center;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 90px;
+    }
+
+    button {
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: transparent;
+        justify-content: space-evenly;
+    }
+
+    .search {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .searchButton {
+        margin-left: 10px;
+    }
+
+    .icon {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 40px;
+    }
+
+    .facebookIcon {
+        padding: 5px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .instagramIcon {
+        padding: 5px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .twitterIcon {
+        padding: 5px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .subscriptionText {
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        text-align: center;
+        text-overflow: clip;
+    }
+
+    #emailInput {
+        margin-top: 20px;
+        height: 20px;
+
+    }
+}

@@ -1,166 +1,239 @@
-header {
-    display: flex;
+html, body{
+    background-color: #FFFFFF;
+    background-image: url("https://img.freepik.com/free-photo/white-marble-with-gray-texture-background_53876-63505.jpg?size=626&ext=jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-input {
-    display: inline-flex;
-    flex-direction: row;
-    margin-top: 20px;
-    margin-left: 429px;
-    width: 350px;
-    height: 30px;
+.content > div:nth-child(1n){
+    background-color: #FFFFFF;;
 }
 
-button{
-    display:inline-flex
+.content > div:nth-child(2n){
+    background-color: #FFFFFF;
 }
 
-header > div {
-    display: flex;
-    margin: 30px;
-    padding-left: 400px;
-    padding-top: 100px;
-    width: 800px;
-    height: 250px;
-    Background-color: rgb(82, 131, 82);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 80px;
-    color: white;
+.content > div:nth-child(3n){
+    background-color: #FFFFFF;
+}
+
+.content > div:nth-child(4n){
+    background-color: #FFFFFF;
+}
+
+.content > div:nth-child(5n){
+    background-color: #FFFFFF;
+}
+
+.content > div:nth-child(6n){
+    background-color: #FFFFFF;
+}
+
+.content > div:nth-child(7n){
+    background-color: #FFFFFF;
+}
+
+.content {
+    display: grid;
+    grid-gap: 2px;
+    margin: 5px;
+}
+
+.content > div {
+    align-items: center; 
+    justify-content: center;
+    border: 1px solid #000000;
+}
+
+.header {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.nav {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.navigationTitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
     text-decoration-line: underline;
-    border: 8px solid #000000;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.container {
+#searchInput {
+    border: 1px solid #f3f3f3;
+}
+
+.about {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.aboutUsTitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    text-decoration-line: underline;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.aboutUsText {
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 8px;
+    padding: 2px;
+}
+
+.sketch {
+    width: 50px;
+    height: auto;
+    float: none;
+}
+
+.new {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    font-size: 10px;
+}
+
+.newArrivalsTitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+.clothes > img {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height:90px;
+    border: 1px solid #f3f3f3;
+    margin: 2px;
+}
+
+.contact {
+    grid-column: 1/2;
+    grid-row: 7/8;
+}
+
+.contactUsTitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+.contactUsText {
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 8px;
+    text-align: center;
+    text-overflow: clip;
+}
+
+.social {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    font-size: 8px;
+}
+
+.socialMediaTitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+.email {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    font-size: 10px;
+}
+
+.subscriptionTitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+.links {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.container > div {
-    padding: 10px;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    color: #000000;
+button {
+    font-size: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: transparent;
+    justify-content: center;
 }
 
-span {
-    font-size: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-span > img {
-    height: 250px;
-    width: 200px;
-}
-
-.container > div:nth-child(1) {
-    border: 2px solid #E3E3E3
-}
-
-.container > div:nth-child(2) {
-    border: 2px solid #E3E3E3;
-}
-
-.container > div:nth-child(3) {
-    border: 2px solid #E3E3E3;
-}
-
-.container > div:nth-child(4) {
-    border: 2px solid #E3E3E3;
-}
-
-.container > div:nth-child(5) {
-    border: 2px solid #E3E3E3;
-}
-
-.container > div:nth-child(6) {
-    border: 2px solid #E3E3E3;
-}
-
-.featured, .men, .aboutUs {
-    font-size: 40px;
-}
-
-.featured > img {
-    display: inline-flex;
-    justify-content: space-around;
-}
-
-.pinkDress {
-    width: 200px;
-    height: 250px;
-}
-
-.womenBlackShirt {
-    width: 200px;
-    height: 250px;
-}
-
-.redSweater {
-    width: 200px;
-    height: 250px;
-}
-
-.mintShirt {
-    width: 200px;
-    height: 250px;
-}
-
-.stripes {
-    width: 200px;
-    height: 250px;
-}
-
-.salmonShirt {
-    width: 200px;
-    height: 250px;
-}
-
-.polkaDot {
-    width: 200px;
-    height: 250px;
-}
-
-.cardigan {
-    width: 200px;
-    height: 250px;
-}
-
-
-.menJacket {
-    width: 200px;
-    height: 250px;
-}
-
-.disney {
-    width: 200px;
-    height: 250px;
-}
-
-.ship {
-    width: 200px;
-    height: 250px;
-}
-
-.whiteJacket {
-    width: 200px;
-    height: 250px;
-}
-
-footer {
+.search {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2px;
 }
 
-a {
-    color: rgb(82, 131, 82);
-    font-size: 15px;
-    ont-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.searchButton {
+    margin-left: 2px;
 }
 
+.icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2px;
+}
 
-@media (min-width: 600px) and  (max-width: 900px) {
-    html { background-color: #333333 }
+.facebookIcon {
+    padding: 1px;
+    width: 10px;
+    height: 10px;
+}
+
+.instagramIcon {
+    padding: 1px;
+    width: 10px;
+    height: 10px;
+}
+
+.twitterIcon {
+    padding: 1px;
+    width: 10px;
+    height: 10px;
+}
+
+.subscriptionText {
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 8px;
+    text-align: center;
+    text-overflow: clip;
+}
+
+#emailInput {
+    margin-top: 2px;
+    height: 8px;
+
 }
 
