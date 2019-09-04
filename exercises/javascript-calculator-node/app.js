@@ -1,12 +1,10 @@
 const readline = require("readline-sync");
 
-const firstNum = readline.question("Please enter your first number: ");
-const secondNum = readline.question("Please enter your second number: ");
+const num1 = readline.question("Please enter your first number: ");
+const num2 = readline.question("Please enter your second number: ");
 const choices = ["add", "subtract", "multiply","divide"];
 const operation = readline.keyInSelect(choices, "What operation do you want to use? ");
 
-const num1 = firstNum;
-const num2 = secondNum;
 
 function add(num1, num2) {
     return Number(num1) + Number(num2)
