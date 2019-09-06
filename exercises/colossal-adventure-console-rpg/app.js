@@ -13,10 +13,12 @@ const player = {
 function walk(){
     console.log("I went walking.")
 
-    const randomNum = Math.floor(Math.random() * (max - min) + min)
-    if(randomNum === 0){ // an enemy appears
+    const randomNum = Math.floor(Math.random() * (max - min + 1) + min)
+    if(randomNum === 0){ 
+        // an enemy appears
         // generateEnemy()
         // fight()
+
     }
 }
 
@@ -28,7 +30,7 @@ player.name = readline.question('What is your name? ');
 
 console.log(`Hi ${player.name}! Lets start the game.`);
 while(!gameOver) {
-    const userChoice = readline.keyInSelect(["walk"], "What would you lik to do? ");
+    const userChoice = readline.keyInSelect(["walk"], "What would you like to do? ");
     if(userChoice === 0){
         walk()
     } else if(userChoice === -1) {

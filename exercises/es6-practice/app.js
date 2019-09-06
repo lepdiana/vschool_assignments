@@ -125,23 +125,44 @@
 
 
 
-const animals = [
-    {
-        type: "dog",
-        name: "theodore"
-    },
-    {
-        type: "cat",
-        name: "whiskers"
-    },
-    {
-        type: "pig",
-        name: "piglette"
-    },
-    {
-        type: "dog",
-        name: "sparky"
-    }
- ];
+// const animals = [
+//     {
+//         type: "dog",
+//         name: "theodore"
+//     },
+//     {
+//         type: "cat",
+//         name: "whiskers"
+//     },
+//     {
+//         type: "pig",
+//         name: "piglette"
+//     },
+//     {
+//         type: "dog",
+//         name: "sparky"
+//     }
+//  ];
  
- filterForDogs = arr => {return arr.filter(animal => (animal.type === "dog") ? true:false)}
+//  filterForDogs = arr => {return arr.filter(animal => (animal.type === "dog") ? true:false)}
+
+
+
+
+
+// Using template literals, write a function that takes location and name parameters and outputs a message formatted like this:
+
+// Hi Janice!
+
+// Welcome to Hawaii. 
+
+// I hope you enjoy your stay. Please ask the president of Hawaii if you need anything. 
+
+const vacation = (location, name) => {return `Hi ${name}!
+
+Welcome to ${location}.
+
+I hope you enjoy your stay. Please as the president of ${location} if you need anything.`
+}
+
+console.log(vacation("Utah", "Beyonce"))
