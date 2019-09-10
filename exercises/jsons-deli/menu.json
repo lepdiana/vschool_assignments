@@ -1,0 +1,88 @@
+{
+    "appetizers": [
+        {
+            "item": "Broccoli and cheddar soup",
+            "ingredients": ["Broccoli", "Cheddar", "Chicken", "Heavy whipping cream"],
+            "description": "semi-thick soup. The soup is a mixture of heavy whipping cream and cheddar then the broccoli and chicken is added."
+        }, 
+        {
+            "item": "Chicken noodle soup",
+            "ingredients": ["Chicken", "Chicken broth", "Celery", "Carrots"], 
+            "description": "Seasoned chicken broth filled with chicken, celery, and carrots."
+        },
+        {
+            "item": "Fried pickles",
+            "ingredients": ["Flour", "Egg", "Salt", "Pepper", "Oil", "Pickle"],
+            "description": "Pickle that is coated with batter then deep fried."
+        }, 
+        {
+            "item": "fries",
+            "ingredients": ["Potato", "Oil", "Salt"],
+            "description": "Thin slices of potato that is deep friend and a sprinkle of salt."
+        }
+    ],
+    "cold sandwiches": [
+        {
+            "item": "BLT",
+            "ingredients": ["Broccoli", "Cheddar", "Chicken", "Heavy whipping cream"],
+            "description": "semi-thick soup. The soup is a mixture of heavy whipping cream and cheddar then the broccoli and chicken is added."
+        }, 
+        {
+            "item": "Tuna sandwich",
+            "ingredients": ["Chicken", "Chicken broth", "Celery", "Carrots"], 
+            "description": "Seasoned chicken broth filled with chicken, celery, and carrots."
+        },
+        {
+            "item": "Turkey club sandwich",
+            "ingredients": ["Flour", "Egg", "Salt", "Pepper", "Oil", "Pickle"],
+            "description": "Pickle that is coated with batter then deep fried."
+        }
+    ],
+    "hot sandwiches": [        
+        {
+            "item": "Ham and cheese croissant",
+            "ingredients": ["Ham", "Cheddar", "Croissant", "Butter"],
+            "description": "Warm buttery croissant filled with cheddar cheese and ham."
+        }, 
+        {
+            "item": "Chicken pomadori",
+            "ingredients": ["Chicken", "Tomato", "Garlic", "Pesto mayo", "Bread", "Provolone"], 
+            "description": "Grilled bread with melted provolone smothered in pesto mayo with garlic, grilled tomato, and grilled chicken."
+        }
+    ],
+    "deserts": [
+        {
+            "item": "Chocolate lava cake", 
+            "ingredients": ["Flour", "Egg", "Sugar", "Chocolate", "Vanilla Icecream"],
+            "description": "Warm chocolate cake with a scoop of vanilla icecream on top."
+        },
+        {
+            "item": "Mochi",
+            "ingredients": ["Short-grain glutinous rice", "Green tea", "Condensed milk", "Powder sugar"],
+            "description": "Green tea flavored icecream wrapped in a Jelly-like rice layer with a sprinkle of powdered sugar."
+
+        },
+        {
+            "item": "Strawberry sorbet",
+            "ingredients": ["Fruit juice", "Water", "Sugar"],
+            "description": "Cold strawberry-flavored slush."
+        }
+    ],
+    "drinks": [
+        {
+            "item": "Coke",
+            "ingredients": ["Carbonated water", "Sugar", "Coca leaf exact"],
+            "description": "Yummy cabonated goodness."
+        },
+        {
+            "item":"Sprite",
+            "ingredients": ["Carbonated water", "Citric acid", "High fructose corn syrup"],
+            "description": "Extra yummy carbonated goodness." 
+        },
+        {
+            "item": "Minutemaide",
+            "ingredients": ["Water", "High fructose corn syrup", "Lemon juice"],
+            "description": "Yummy uncarbonated sour goodness."
+        }
+    ]
+}

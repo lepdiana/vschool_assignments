@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+#box1 {
+    background-color: indigo;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #000; 
+    border-radius: 50%;
+    transition-property: background-color, border-radius;
+    transition-duration: 9ms;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+
+#box1:hover {
+    background-color: red;
+    border-radius: 0%;
+}
+
+#box2 {
+    background-color: blue;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #000;
+    border-radius: 40%;
+    transition-property: background-color, border-radius;
+    transition-duration: 9ms;
+    transition-timing-function: ease-out;
+    transition-delay: 1s;
+}
+
+#box2:hover {
+    background-color: orange;
+    border-radius: 0%;
+}
+
+#box3 {
+    background-color: green;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #000;
+    border-radius: 30%;
+    transition-property: background-color, border-radius;
+    transition-duration: 9ms;
+    transition-timing-function: ease-out;
+}
+
+#box3:hover {
+    background-color: yellow;
+    border-radius: 0%;
+}
+
+#box4 {
+    background-color: yellow;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #000;
+    border-radius: 20%;
+    transition-property: background-color, border-radius;
+    transition-duration: 9ms;
+    transition-timing-function: ease-out;
+}
+
+#box4:hover {
+    background-color: green;
+    border-radius: 0%;
+}
+
+#box5 {
+    background-color: orange;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #000;
+    border-radius: 10%;
+    transition-property: background-color, border-radius;
+    transition-duration: 9ms;
+    transition-timing-function: ease-out;
+}
+
+#box5:hover {
+    background-color: blue;
+    border-radius: 0%;
+}
+
+#box6 {
+    background-color: red;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #000;
+    border-radius: 0%;
+    transition-property: background-color, border-radius;
+    transition-duration: 9ms;
+    transition-timing-function: ease-out;
+}
+
+#box6:hover {
+    background-color: indigo;
+    border-radius: 0%;
+}

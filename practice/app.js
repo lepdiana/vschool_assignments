@@ -1,10 +1,16 @@
-// Write a function that returns the number of times ‘code’ appears in an array.
+var input = "";
 
-function checkCode(arr){
-  const filteredWord = arr.filter(function(word){
-    return word == 'code'
-  })
-  return filteredWord.length
+try {
+  if(input == "") {
+    throw "Input can not be empty";
+  } else if(input.length > 5) {
+    throw "Input is to big";
+  } else {
+    console.log("You code runs fine!");
+  }
+} catch(err) {
+  console.log(err);
+} finally {
+  console.log("Runs no matter what");
+  console.log("And the input was " + input);
 }
-console.log(checkCode(['code', 'cool', 'notcode', 'hi']))
-console.log(checkCode(['code', 'code', 'hello', 'world', 'hi']))
