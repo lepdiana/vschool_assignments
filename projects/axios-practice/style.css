@@ -1,0 +1,125 @@
+body {
+    background-image: linear-gradient(#BF2F1F, #FFFFFF);
+    justify-content: center;
+}
+
+#header {
+    background-image: url("https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?size=626&ext=jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 200px;
+    padding-top: 80px;
+    border: 2px solid #000000;
+    justify-content: center;
+    background-color: #FFFFFF;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #BF2F1F;
+    text-shadow: -1px 0 #000, 0 8px #000, 1px 0 #000, 0 -1px #000
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+form {
+    display: grid;
+    justify-content: center;
+    margin-top: 10px;
+    grid-gap: 3px;
+    background-color: #FFFFFF;
+    padding-top: 10px;
+    border: 2px solid #000000;
+}
+
+#title {
+    align-content: center;
+    height: 30px;
+    width: 300px;
+    border: 1px solid #000000;
+}
+
+#description {
+    height: 30px;
+    width: 300px;
+    border: 1px solid #000000;
+}
+
+#image {
+    height: 30px;
+    width: 300px;
+    border: 1px solid #000000;
+}
+
+.submitBtn {
+    width: 100px;
+    margin-left: 35%;
+    margin-bottom: 10px;
+}
+
+
+#todoList {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    margin-top: 10px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.newTodoSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: #000000 1px solid;
+}
+
+.newTodoTitleCheckBox {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.checkBox {
+    margin-top: 25px;
+}
+
+.newTodoTitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.newTodoImage {
+    display: flex;
+    justify-content: center;
+}
+
+.photo {
+    height: 120px;
+    width: 180px;;
+    border: #000000 1px solid;
+}
+
+.newTodoDescription {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #C4B439;
+}
+
+.newTodoDeleteBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.deleteBtn {
+    width: 100px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
