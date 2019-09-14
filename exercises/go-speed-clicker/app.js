@@ -1,6 +1,7 @@
 const displayCount = document.getElementById("container")
 const incrementButton = document.getElementById("increment")
 
+
 let count = 0
 console.log(localStorage.getItem("num"))
 if (!localStorage.getItem('num')) {
@@ -8,10 +9,9 @@ if (!localStorage.getItem('num')) {
     count = 0
     displayCount.textContent = count
 } else {
-   count = localStorage.getItem('num')
-   displayCount.textContent = count
+count = localStorage.getItem('num')
+displayCount.textContent = count
 }
-
 incrementButton.addEventListener("click", (event) => {
     event.preventDefault()
     count++;
@@ -20,6 +20,7 @@ incrementButton.addEventListener("click", (event) => {
     const savedNum = localStorage.getItem("num");
     return savedNum
 })
+
 
 
 
