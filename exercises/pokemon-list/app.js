@@ -16,9 +16,12 @@ xhr.send();
 const listOutDataToDOM = (arr) => {
     console.log(arr) 
     for (let i=0; i < arr.length; i++) {
-        const text = document.createElement("div")
-        text.textContent = arr[i].name
-        document.body.appendChild(text)
+        const name = document.createElement("h3")
+        const resource = document.createElement("p")
+        name.textContent = arr[i].name
+        resource.textContent = arr[i].resource_uri
+        document.body.appendChild(name)
+        document.body.appendChild(resource)
     }
 }
 
