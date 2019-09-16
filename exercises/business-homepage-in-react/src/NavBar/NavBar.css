@@ -1,0 +1,29 @@
+.navBarContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.about {
+    width: 300px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: #1C6119;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.shareYourExperience {
+    width: 300px;
+    margin-right: 10px;
+    background-color: #1C6119;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.visitingThePark {
+    width: 300px;
+    background-color: #1C6119;
+    font-size: 20px;
+    color: #FFFFFF;
+}

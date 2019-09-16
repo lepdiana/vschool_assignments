@@ -1,0 +1,33 @@
+.visitingInfo {
+    display: grid;
+}
+
+.visitingTitle {
+    font-size: 40px;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+.weatherTitle {
+    margin-left: 20px;
+}
+
+.weatherText {
+    margin-left: 20px;
+}
+
+.tourCampingTitle {
+    margin-left: 20px;
+}
+
+.tourCampingText {
+    margin-left: 20px;
+}
+
+.wildlifeTitle {
+    margin-left: 20px;
+}
+
+.wildlifeText {
+    margin-left: 20px;
+}

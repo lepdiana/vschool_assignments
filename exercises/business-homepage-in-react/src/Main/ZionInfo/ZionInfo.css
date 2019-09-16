@@ -1,0 +1,14 @@
+.about {
+    display: flex;
+    justify-content: center;
+}
+
+.zionInfoTitle {
+    font-size: 40px;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+.zionInformationText {
+    margin: 20px;
+}

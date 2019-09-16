@@ -1,0 +1,17 @@
+.merchandise {
+    display: grid;
+}
+
+.merchandiseTitle {
+    font-size: 40px;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+img {
+    height: 220px;
+    width: 190px;
+    border: 1px solid #000000;
+    margin: 20px;
+
+}

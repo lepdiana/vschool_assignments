@@ -1,0 +1,22 @@
+.headerContainer {
+    display: flex;
+    justify-content: center;
+    background-image: url("https://www.doi.gov/sites/doi.gov/files/blog-post/thumbnail-images/ZionNPTomMorrisSmall.jpg");
+    background-position: center;
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 400px;
+}
+
+.title {
+    position: absolute;
+    margin-top: 180px;
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    opacity: 1;
+    text-shadow: 2px 2px #000000;
+}
+
