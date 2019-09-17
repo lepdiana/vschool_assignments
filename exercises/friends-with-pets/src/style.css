@@ -1,0 +1,13 @@
+.friend-container {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.pet-cotainer {
+    border: 1ps solid blue;
+    margin: 5px;
+    padding: 5px;
+
+}
