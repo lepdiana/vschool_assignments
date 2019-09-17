@@ -1,6 +1,5 @@
 import React from 'react';
 import Pet from './Pet.js';
-import './style.css'
 
 const Friend = props => {
 
