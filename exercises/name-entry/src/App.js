@@ -33,11 +33,11 @@ class App extends Component {
       <div>
         <form onSubmit={this.handleSubmit}>
         <input 
-                        type="text" 
-                        name="firstName" 
-                        value={this.state.firstName} 
-                        onChange={this.handleChange}
-                        placeholder="First Name"/>
+          type="text" 
+          name="firstName" 
+          value={this.state.firstName} 
+          onChange={this.handleChange}
+          placeholder="First Name"/>
           <button>Submit</button>
         </form>
         <div>
