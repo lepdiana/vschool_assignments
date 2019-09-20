@@ -1,0 +1,128 @@
+.header {
+    display: grid;
+    border: 1px solid black;
+    background-image: url('https://blackrockdigital.github.io/startbootstrap-clean-blog/img/home-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
+    height: 400px;
+}
+
+.headerText {
+    margin-top: -5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 800;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.subtitle {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    margin-top: -50px;
+}
+
+.startBootstrapContainer {
+    display: flex;
+    justify-content: left;
+    margin-top: -300px;
+    margin-left: 100px;
+}
+
+.startBootstrap {
+    color: #FFFFFF;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navLinkContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -24px;
+    width: 400px;
+    margin-left: 700px;
+}
+
+
+.home {
+    color: #FFFFFF;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.about {
+    color: #FFFFFF;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.samplePost {
+    color: #FFFFFF;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contact {
+    color: #FFFFFF;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #868e96;
+    margin: 10px;
+
+}
+
+.postTitle{
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+}
+
+.postSubTitle {
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 1.75rem;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.postAuthorDate {
+    font-size: 18px;
+    font-style: italic;
+    color: #868e96;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.author {
+    text-decoration: none;
+    font-style: normal;
+    color: #000000
+}
