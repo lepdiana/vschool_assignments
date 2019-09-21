@@ -1,0 +1,173 @@
+* {
+    margin: 0px;
+}
+
+html,body{
+    height: 100%;
+}
+
+body {
+    background-color: #333333;
+    display: grid;
+    grid-gap: 10px;
+    height: 100%;
+    grid-template-columns:1fr;
+    grid-template-areas:
+                "nav"
+                "main"
+                "footer";
+    grid-template-rows: 100px 1fr 80px;
+}
+
+.headerContainer {
+    grid-area: nav;
+    margin-top: 0px;
+    background-color: #1a1a1a;
+    padding-top: 40px;
+}
+
+.headerTitle {
+    color: #ffffff;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    font-weight: 900;
+    margin-left: 3%;
+    text-align: center;
+}
+
+.headerSubtitle {
+    color: #ffffff;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 3%;
+    text-align: center;
+
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.home {
+    color: #b3abab;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Assistant', sans-serif;
+    text-decoration: none;
+}
+
+.home:hover {
+    color: #FFFFFF;
+}
+
+.about {
+    color: #b3abab;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Assistant', sans-serif;
+    text-decoration: none;
+}
+
+.about:hover {
+    color: #FFFFFF;
+}
+
+.services {
+    color: #b3abab;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Assistant', sans-serif;
+    text-decoration: none;
+}
+
+.services:hover {
+    color: #FFFFFF;
+}
+
+.footerContainer {
+    grid-area: footer;
+    background-color: #1a1a1a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    bottom: 0;
+    margin: 0 auto;
+    border-top: 1px solid #ffffff;
+}
+
+.main {
+    grid-area: main;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.plumbingHardware {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.homeText {
+    color: #b3abab;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Assistant', sans-serif;
+}
+
+
+.gridFooterContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footerTitle {
+    color: #ffffff;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+
+.footerText {
+    color: #b3abab;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Assistant', sans-serif;
+    font-size: 15px;
+}
+
+.nameInput {
+    width: 250px;
+    height: 20px;
+}
+
+.phoneInput {
+    width: 250px;
+    height: 20px;
+}
+
+.descriptionInput {
+    width: 250px;
+    height: 50px;
+}
+
+.aboutText {
+    color: #b3abab;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Assistant', sans-serif;
+}
+
+.servicesText {
+    color: #b3abab;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Assistant', sans-serif;
+}
+
+.servicesList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
