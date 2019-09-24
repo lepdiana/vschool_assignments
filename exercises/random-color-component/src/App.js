@@ -18,8 +18,8 @@ class App extends Component {
   }
 
   render() {
-    const mappedColors = this.state.colors.map(color => {
-      return <h1 style={{height: 200, width: 200, backgroundColor: `#${color.hex}`}}>{color.hex}</h1>
+    const mappedColors = this.state.colors.map((color, i) => {
+      return <h1 key={i} style={{height: 200, width: 200, backgroundColor: `#${color.hex}`}}>{color.hex}</h1>
     })
     return(
       <div>
