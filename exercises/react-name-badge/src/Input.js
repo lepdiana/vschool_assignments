@@ -46,8 +46,8 @@ class Input extends Component {
         }))
     }
 
-    render(){
 
+    render(props){
         return(
             <div>
                 <div className="inputs">
@@ -117,12 +117,9 @@ class Input extends Component {
                         { this.state.tellUsAboutYourself.length < 3 && <p style={{color: 'red', textAlign: 'center'}}>Tell us about yourself is required</p> }
                     </form>
                 </div>
-                { this.state.peopleArray.length ?
-                        <div>
-                            { this.state.peopleArray.map((person, i) =>  <Badge {...person} key={i}/>) }
-                        </div>
-                        :
-                        <p style={{color: 'blue', textAlign: 'center'}}>There are no badges in the list yet.</p>}
+                <div>
+                    { this.state.peopleArray.map((person, i) =>  <Badge {...person} key={i} peopleArray={this.state.peopleArray}/>) }
+                </div>
             </div>
         )
     }
