@@ -26,7 +26,16 @@ class App extends Component {
   render() {
     return (
       <div>
-        { this.state.bounties.map(bounty => <h1>{bounty.firstName}</h1>)}
+        { this.state.bounties.map(bounty => 
+                                    <div>
+                                      <h1 style={{display: 'inline-block'}}>Name: {bounty.firstName}</h1>
+                                      <h1 style={{display: 'inline-block'}}>    {bounty.lastName}</h1>
+                                      <p>Is Living? {bounty.isLiving}</p>
+                                      <p>Amount:{bounty.bountyAmount}
+                                      </p>
+                                      <p>Type: {bounty.type}</p>
+                                    </div>
+                                  )}
       </div>
     )
   }
