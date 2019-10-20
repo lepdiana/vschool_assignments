@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 
 
 app.use(express.json())
-app.use(morgan("dev"))
+
 
 mongoose.connect("mongodb://localhost:27017/bountydb", 
     {
@@ -19,6 +19,10 @@ mongoose.connect("mongodb://localhost:27017/bountydb",
 
 
 app.use('/bounties', require('./routes/bountyRouter.js'))
+
+app.use((err, req, res, next) => {
+    return res.send({errMsg: err.message})
+})
  
 
 app.listen(7000, () => {

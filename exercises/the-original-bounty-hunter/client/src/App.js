@@ -16,7 +16,7 @@ class App extends Component {
           bounties: res.data
       })
     })
-    .catch(err => console.log(err))
+    .catch(err => err.res.data.errMsg)
   }
 
   componentDidMount(){
