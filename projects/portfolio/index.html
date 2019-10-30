@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diana Le</title>
+
+    <link rel='stylesheet' href='style.css'/>
+
+</head>
+<body> 
+    <header id='header'>
+        <h1 class='headerTitle'>I'm Diana Le,</h1>
+        <h2 class='headerSubtitle'></h2>
+        <nav>
+            <a class="active" href="#about">About</a>
+            <a href='#projects'>Projects</a>
+            <a href="#contact">Contact</a>
+            <a href="https://drive.google.com/open?id=1xqyI8MfpW9M_ZFbXYFil0ITf4q9qRrF_">Resume</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id='about'></div>
+        <div>
+            <section class="intro">
+                    <div class="container">
+                        <h1>&darr; About &darr;</h1>
+                    </div>
+            </section>
+
+            <section class="description">
+                <h3 id='introductionTitle'>Introduction</h3>
+                <img src='https://i.postimg.cc/2Skytg5n/0-D46-AB74-CF8-E-404-F-B3-AC-1263-B9-D4-FCAE-1-201-a.jpg' id='personalImage'/>
+                
+                <p id='introductionText'>I enjoy constant communication with colleagues to write efficient code and creating visually appealing sites while continuously improving user experience.</p>
+            </section>
+            
+            <section class="timeline">
+                <h3 id='experience'>Experience</h3>
+                <ul>
+                    <li>
+                    <div>
+                        <time>Nov. 2019</time> 
+                        <br />
+                        Graduating from V School - Full Stack JavaScript (MERN).
+                    </div>
+                    </li>
+                    <li>
+                    <div>
+                        <time>Aug. 2019</time> 
+                        <br />
+                        Started V School - Full Stack JavaScript.
+                    </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div id='projects'></div>
+        <div >
+            <section class="intro">
+                    <div class="container">
+                        <h1>&darr; Projects &darr;</h1>
+                    </div>
+            </section>
+            <section class="projectContainer">
+                <h3 class="projectTitle">FortNite</h3>
+                <p class="projectText">This site implements an online API. It was created with React router, render-props, and lifecycle methods.</p>
+                <a href="http://reactfortniteapi.surge.sh/" target="_blank">
+                    <img class="projectImage" src="https://i.postimg.cc/tg5B6R67/Screen-Shot-2019-10-21-at-6-19-44-PM.png">
+                </a>
+            </section>
+            <section class="projectContainer">
+                    <h3 class="projectTitle">Blog It Up!</h3>
+                    <p class="projectText">This is a full stack webpage using MongoDB for the back end and React for the front end.</p>
+                    <a href="https://github.com/TallanGroberg/blog-it-up" target="_blank">
+                        <img class="projectImage" src="https://i.postimg.cc/Pf4vWLtk/Screen-Shot-2019-10-24-at-3-23-03-PM.png">
+                    </a>
+                </section>
+        </div>
+        <div id='contact'></div>
+        <div class='contactSection'>
+            <section class="intro">
+                    <div class="container">
+                        <h1>&darr; Contact &darr;</h1>
+                    </div>
+            </section>
+            <p class="contactText">Please feel free to reach out to me!</p>
+            <section id='contactInfo'>
+                <a class="button" href="#popup1"><img src="https://img.icons8.com/ios/2x/new-post.png" alt='email' class='contactIcon'/></a>
+
+                <div id="popup1" class="overlay">
+                    <div class="popup">
+                        <h2>Email</h2>
+                        <a class="close" href="#">&times;</a>
+                        <div class="content">
+                            lepdiana01@gmail.com
+                        </div>
+                    </div>
+                </div>
+
+
+                 <a href='https://github.com/lepdiana'>
+                    <img src="https://img.icons8.com/ios/2x/github-2.png"
+                    alt='github' class='contactIcon'/>
+                 </a>   
+                <a href='https://www.linkedin.com/in/lepdiana/'>
+                   <img src="https://img.icons8.com/ios/2x/linkedin-2.png" alt='linkedin'class='contactIcon'/>
+                </a>
+
+            </section>
+        </div>
+    </main>
+              
+    <script src='app.js'></script>
+</body>
+</html>
