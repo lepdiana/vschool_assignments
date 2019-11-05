@@ -5,10 +5,10 @@
     width: 80vw;
     margin: 10px 0;
     padding: 5%;
-    background-color: #63906F;
-    -webkit-box-shadow: 7px 7px 18px -15px rgba(202,221,217,1);
-    -moz-box-shadow: 7px 7px 18px -15px rgba(202,221,217,1);
-    box-shadow: 7px 7px 18px -15px rgba(202,221,217,1);
+    background-color: #FBFBFB;
+    -webkit-box-shadow: 7px 7px 18px -15px #333;
+    -moz-box-shadow: 7px 7px 18px -15px #333;
+    box-shadow: 7px 7px 18px -15px #333;
     border-radius: 5px;
 }
 
@@ -31,5 +31,5 @@
 }
 
 .expenseAmount {
-    color: #FBFBFB;
+    color: #63906F;
 }
