@@ -2,6 +2,8 @@ import React, { useEffect, useContext, useState } from 'react'
 import { CrudContext } from '../context/CrudProvider.js'
 import NetIncomeForm from './NetIncomeForm.js'
 
+import '../styles/netIncome.css'
+
 function NetIncome(props) {
     const [isEditing, setIsEditingState] = useState(false)
 
@@ -28,14 +30,14 @@ function NetIncome(props) {
     }
 
     return(
-        <div>
+        <div className='netIncomeContainer'>
             { !isEditing ?
                 <>
-                    <p>{ props.year }</p>
-                    <h3>{ props.month }</h3>
-                    <p>{ props.income }</p>
-                    <button onClick={ editToggler }>Edit</button>
-                    <button onClick={ (e) => props.deleteIncome(props._id) }>Delete</button>
+                    <p className='netIncomeYear'>{ props.year }</p>
+                    <h3 className='netIncomeMonth'>{ props.month }</h3>
+                    <p className='netIncomeIncome'>{ props.income }</p>
+                    <button onClick={ editToggler } className='netIncomeBtn'>Edit</button>
+                    <button onClick={ (e) => props.deleteIncome(props._id) } className='netIncomeBtn'>Delete</button>
                 </>
             :
                 <>
@@ -43,7 +45,7 @@ function NetIncome(props) {
                         inputs={ inputs }
                         handleChange={ handleChange }
                         handleSubmit={ handleSubmit }/>
-                    <button onClick={ editToggler }>Close</button>
+                    <button onClick={ editToggler } className='netIncomeBtn'>Close</button>
                 </> 
             }
         </div>

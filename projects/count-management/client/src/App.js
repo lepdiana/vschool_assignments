@@ -4,7 +4,7 @@ import { UserContext } from './context/UserProvider.js'
 import Auth from './components/Auth.js'
 import Overview from './components/Overview.js'
 import NetIncomeList from './components/NetIncomeList.js'
-import Expense from './components/Expense.js'
+import ExpenseList from './components/ExpenseList.js'
 import TransactionList from './components/TransactionList.js'
 import Navbar from './components/Navbar.js'
 import ProtectedRoute from './shared/ProtectedRoute.js'
@@ -28,7 +28,7 @@ function App() {
           />
           <ProtectedRoute 
             path='/expense'
-            component={Expense}
+            component={ExpenseList}
             redirectTo='/'
           />
           <ProtectedRoute 

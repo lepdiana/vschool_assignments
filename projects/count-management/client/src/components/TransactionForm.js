@@ -1,12 +1,14 @@
 import React, { useState, useContext } from 'react'
 import { CrudContext } from '../context/CrudProvider';
 
+import '../styles/transactionForm.css'
+
 function TransactionForm(props) {
     const { inputs, handleChange, handleSubmit } = props
 
     return (
-        <div>
-            <form onSubmit={handleSubmit}>
+        <div className='transactionFormContainer'>
+            <form onSubmit={handleSubmit} className='transactionForm'>
                 <input 
                     type='date' 
                     name='date'
@@ -48,7 +50,7 @@ function TransactionForm(props) {
                     <option value='Travel'>Travel</option>
                     <option value='Uncategorized'>Uncategorized</option>
                 </select>
-                <button>Submit</button>
+                <button className='transactionBtn'>Submit</button>
             </form>
         </div>
     )

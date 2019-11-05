@@ -1,6 +1,8 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { CrudContext } from '../context/CrudProvider.js'
 
+import '../styles/overview.css'
+
 function Overview() {
     const { userNetIncomes, getUserNetIncomes, userTransactions, getUserTransactions  } = useContext(CrudContext)
 
@@ -27,10 +29,10 @@ function Overview() {
     let overallTotal = netIncomeTotal - transactionTotal
 
     return (
-        <div>
-            <h3>Net Income: { netIncomeTotal }</h3>
-            <h3>Expense: { transactionTotal }</h3>
-            <h3>Total: { overallTotal.toFixed(2) }</h3>
+        <div className='overviewContainer'>
+            <h3 className='overviewText'>Net Income: { netIncomeTotal.toFixed(2) }</h3>
+            <h3 className='overviewText'>Expense: { transactionTotal.toFixed(2) }</h3>
+            <h3 className='overviewText'>Total: { overallTotal.toFixed(2) }</h3>
         </div>
     )
 }

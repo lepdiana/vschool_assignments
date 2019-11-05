@@ -2,6 +2,8 @@ import React, { useEffect, useContext, useState } from 'react'
 import { CrudContext } from '../context/CrudProvider.js'
 import TransactionForm from './TransactionForm.js'
 
+import '../styles/transaction.css'
+
 function Transaction(props) {
     const [isEditing, setIsEditingState] = useState(false)
 
@@ -27,16 +29,17 @@ function Transaction(props) {
         editToggler()
     }
 
+
     return(
-        <div>
+        <div className='transactionContainer'>
             { !isEditing ?
                 <>
-                    <p>{ props.date }</p>
-                    <h3>{ props.title }</h3>
-                    <p>{ props.amount }</p>
-                    <p>{ props.category }</p>
-                    <button onClick={ editToggler }>Edit</button>
-                    <button onClick={ (e) => props.deleteTransaction(props._id) }>Delete</button>
+                    <p className='transactionText'>{ props.date }</p>
+                    <h3 className='transactionTitle'>{ props.title }</h3>
+                    <p className='transactionText'>{ props.amount }</p>
+                    <p className='transactionText'>{ props.category }</p>
+                    <button onClick={ editToggler } className='transactionBtn'>Edit</button>
+                    <button onClick={ (e) => props.deleteTransaction(props._id) } className='transactionBtn'>Delete</button>
                 </>
             :
                 <>
@@ -44,7 +47,7 @@ function Transaction(props) {
                         inputs={ inputs }
                         handleChange={ handleChange }
                         handleSubmit={ handleSubmit }/>
-                    <button onClick={ editToggler }>Close</button>
+                    <button onClick={ editToggler } className='transactionBtn'>Close</button>
                 </> 
             }
         </div>

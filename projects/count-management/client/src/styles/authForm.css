@@ -1,0 +1,13 @@
+.authForm {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 8vh);
+    grid-gap: 2vh;
+    width: 60vw;
+}
+
+.clickHere {
+    border-radius: 10px;
+    height: 5vh;
+    width: 30vw;
+}

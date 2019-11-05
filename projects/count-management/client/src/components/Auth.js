@@ -2,6 +2,8 @@ import React, { useState, useContext } from 'react'
 import AuthForm from './AuthForm.js'
 import { UserContext } from '../context/UserProvider.js'
 
+import '../styles/auth.css'
+
 function Auth(){
     const initState = { username: "", password: "" }
     const { signup, login, authErrMsg, clearAuthErr } = useContext(UserContext)
@@ -33,32 +35,34 @@ function Auth(){
     }
    
     return (
-        <div>
+        <div className='signupLoginContainer'>
             {!toggle ?
                 <>
+                    <h1 className='authTitle'>Signup</h1>
                     <AuthForm 
                         inputs={inputs}
                         handleChange={handleChange}
                         handleSubmit={handleSignupSubmit}
                         btnText="Signup"
                     />
-                    <p style={{color: 'red'}}>{authErrMsg}</p>
-                    <p>Already a member?</p>
-                    <button onClick={toggleForms}>
+                    <p className='authErrMsg'>{authErrMsg}</p>
+                    <p className='member'>Already a member?</p>
+                    <button onClick={toggleForms} className='clickHere'>
                         Click here
                     </button>
                 </>
             :
                 <>
+                    <h1 className='authTitle'>Login</h1>
                     <AuthForm 
                         inputs={inputs}
                         handleChange={handleChange}
                         handleSubmit={handleLoginSubmit}
                         btnText="Login"
                     />
-                    <p style={{color: 'red'}}>{authErrMsg}</p>
-                    <p>Not a member?</p>
-                    <button onClick={toggleForms}>
+                    <p className='authErrMsg'>{authErrMsg}</p>
+                    <p className='member'>Not a member?</p>
+                    <button onClick={toggleForms} className='clickHere'>
                         Click here
                     </button>
                 </>

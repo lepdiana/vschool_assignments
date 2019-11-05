@@ -13,7 +13,6 @@ axios.interceptors.request.use((config) => {
 function CrudProvider(props) {
     const initState = {
         userNetIncomes: [],
-        userExpenses: [],
         userTransactions: []
     }
 
@@ -38,28 +37,6 @@ function CrudProvider(props) {
                 setIncomeState(prevIncomeState => ({
                     ...prevIncomeState,
                     userNetIncomes: [...prevIncomeState.userNetIncomes, res.data]
-                }))
-            })
-            .catch(err => console.log(err))
-    }
-
-    const getUserExpenses = () => {
-        axios.get('/api/expense/user')
-            .then(res => {
-                setExpenseState(prevExpenseState => ({
-                    ...prevExpenseState, 
-                    userExpenses: res.data
-                }))
-            })
-            .catch(err => console.log(err))
-    }
-
-    const addExpense = newExpense => {
-        axios.post('/api/expense', newExpense)
-            .then(res => {
-                setExpenseState(prevExpenseState => ({
-                    ...prevExpenseState,
-                    userExpenses: [...prevExpenseState.userExpenses, res.data]
                 }))
             })
             .catch(err => console.log(err))
@@ -131,15 +108,12 @@ function CrudProvider(props) {
         <CrudContext.Provider
             value={{
                 userNetIncomes: incomeState.userNetIncomes,
-                userExpenses: expenseState.userExpenses,
                 userTransactions: transactionState.userTransactions,
                 getUserNetIncomes: getUserNetIncomes,
-                getUserExpenses: getUserExpenses,
                 getUserTransactions: getUserTransactions,
                 addNetIncome: addNetIncome,
                 deleteIncome: deleteIncome,
                 editIncome: editIncome,
-                addExpense: addExpense,
                 addTransaction: addTransaction,
                 deleteTransaction: deleteTransaction,
                 editTransaction: editTransaction

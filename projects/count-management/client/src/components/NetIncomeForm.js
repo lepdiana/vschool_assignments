@@ -1,12 +1,14 @@
 import React, { useState, useContext } from 'react'
 import { CrudContext } from '../context/CrudProvider';
 
+import '../styles/netIncomeForm.css'
+
 function NetIncomeForm(props) {
     const { inputs, handleChange, handleSubmit } = props
 
     return (
-        <div>
-        <form onSubmit={handleSubmit}>
+        <div className='netIncomeFormContainer'>
+        <form onSubmit={handleSubmit} className='netIncomeForm'>
                     <input 
                         type='number' 
                         name='year'
@@ -34,7 +36,7 @@ function NetIncomeForm(props) {
                         value={inputs.income}
                         onChange={handleChange}
                         placeholder='Income'/>
-                    <button>Submit</button>
+                    <button className='netIncomeBtn'>Submit</button>
                 </form>
         </div>
     )

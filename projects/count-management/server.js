@@ -23,7 +23,6 @@ app.use('/auth', require('./routes/authRouter.js'))
 app.use('/api', expressJwt({secret: process.env.SECRET}))
 
 app.use('/api/netincome', require('./routes/netIncomeRouter.js'))
-app.use('/api/expense', require('./routes/expenseRouter.js'))
 app.use('/api/transaction', require('./routes/transactionRouter.js'))
 
 app.use((err, req, res, next) => {

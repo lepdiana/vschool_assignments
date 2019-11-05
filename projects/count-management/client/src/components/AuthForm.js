@@ -1,9 +1,11 @@
 import React from 'react'
 
+import '../styles/authForm.css'
+
 function AuthForm(props) {
     const { handleChange, handleSubmit, inputs: { username, password }} = props
     return (
-        <form onSubmit={ handleSubmit }>
+        <form onSubmit={ handleSubmit } className ='authForm'>
             <input
                 type='text'
                 name='username'
